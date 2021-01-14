@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Belajar Array </title>
+    <script type="text/javascript" src='./array.js' defer></script>
+</head>
+
+<body>
+
+    <p> Masukan buah atau sayur</p>
+    <label for="txtInput">Input nama item :</label>
+    <input type="text" id="txtItem"/>
+    Masukan jenis item
+    <select id="lstJenisItem" >
+        <option value="buah">Buah - Buahan</option>
+        <option value="sayur">Sayur - Sayuran</option>
+    </select>
+
+    <button id="btnAddItem" onclick="tambahItem(document.getElementById('txtItem').value,document.getElementById('lstJenisItem').value)">Tambah Item</button>
+    
+
+    <p> Jenis jenis buah</p>
+    <label for="txtBuah">Input nama buah :</label>
+    <input type="text" id="txtBuah"/>
+    <button id="btnAddBuah" onclick="tambahBuah(document.getElementById('txtBuah').value)">Tambah Buah</button>
+    <p>Buah Tropis :</p>
+    <ul>
+        <div id="buah">
+
+        </div>
+    </ul>
+
+
+
+
+
+    <p> Jenis jenis sayur buah</p>
+    <label for="txtSayur">Input nama sayur :</label>
+    <input type="text" id="txtSayur"/>
+    <button id="btnAddSayur" onclick="tambahSayur(document.getElementById('txtSayur').value)">Tambah Sayur</button>
+
+    <p> Jenis jenis sayuran</p>
+    <p>Sayuran Tropis  :</p>
+    <ol>
+        <div id="sayuran">
+            <button id="btnAddSayur" onclick="+(document.getElementById('txtSayur').value)">Tambah Sayur</button>
+
+        </div>
+    </ol>
+
+
+
+
+
+
+
+</body>
+</html> 
+
